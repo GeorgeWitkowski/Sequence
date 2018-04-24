@@ -33,38 +33,5 @@
         [self setArray:mutableArray];
         return sequenceLength;
     }
-    
-    
-    
-    
-    
-    
-    
-   /*
-    int min = [arr[0] intValue];
-    NSMutableArray *mutArr = [arr mutableCopy];
-    for(NSNumber *i in mutArr) {
-        int intI = [i intValue];
-        if (min > intI) {
-            min = intI;
-        }
-        //NSLog(@"%d", min);
-    }
-    int counter = 1;
-    for(NSNumber *_ in arr) {
-        for(NSNumber *k in arr) {
-            int intK = [k intValue];
-            if((min+1) == intK) {
-                counter++;
-                min = intK;
-                [mutArr addObject: [NSNumber numberWithInt:min]];
-            }
-        }
-    }
-    */
-    
-    
-    
-
 
 @end
