@@ -15,10 +15,10 @@
     return [array valueForKeyPath:@"@sum.self"];
 }
 
-/*
+
 - (void)dealloc {
     [array release];
     [super dealloc];
 }
-*/
+
 @end
